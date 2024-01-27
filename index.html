@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Honey Hunters</title>
+        <link rel="stylesheet" href="/css/index.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="heared__conteiner">
+                    <div class="header__logo logo"></div>
+                </div>
+            </header>
+            <form action="#" onsubmit="return false;" class="form">
+                <div class="form__conteiner">
+                    <div class="form__decor"></div>
+                    <div class="form__content">
+                        <div class="form__column --col-1">
+                            <div class="form__input input">
+                                <div class="input__title">
+                                    Имя <span>*</span>
+                                </div>
+                                <input type="text" id="name" class="input__inp" />
+                            </div>
+                            <div class="form__input input">
+                                <div class="input__title">
+                                    E-Mail <span>*</span>
+                                </div>
+                                <input type="text" id="email" class="input__inp" />
+                            </div>
+                        </div>
+                        <div class="form__column --col-2">
+                            <div class="form__input input --area">
+                                <div class="input__title">
+                                    Комментарий <span>*</span>
+                                </div>
+                                <textarea class="input__inp" id="comment"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__btns">
+                        <button class="form__submit">Записать</button>
+                    </div>
+                </div>
+            </form>
+            <section class="comments">
+                <div class="comments__conteiner">
+                    <h2 class="comments__title">Выводим комментарии</h2>
+                    <div class="comments__content">
+                        
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__conteiner">
+                    <a href="#"><div class="footer__logo logo"></div></a>
+                    <nav class="footer__social social">
+                        <a href="#"><div class="social__ico --vk"></div></a>
+                        <a href="#"><div class="social__ico --fb"></div></a>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+        <div class="message-box"></div>
+    </body>
+    
+    <script src="/js/jq.js"></script>
+    <script src="/js/message-box.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/form.js"></script>
+</html>

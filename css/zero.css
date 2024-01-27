@@ -1,0 +1,50 @@
+
+html,
+body,
+ul,
+li,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+
+*, *::before, *::after
+{
+    box-sizing: border-box;
+}
+
+[class*='__conteiner']{
+    max-width: 780px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background-color: #2d3136;
+}
+
+
+
+.--none{
+    display: none !important;
+}
