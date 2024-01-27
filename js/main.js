@@ -6,7 +6,7 @@ async function start(){
     const response = await getServerArticles()
 
     response.content.forEach(item => {
-        $('.comments__content').append(generateHtmlArticle(item))
+        $('.comments__content').prepend(generateHtmlArticle(item))
     });
 }
 
